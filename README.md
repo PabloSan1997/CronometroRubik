@@ -26,4 +26,4 @@
 
 ### Pagina
 En esta url puedes ver esta aplicacion web funcionar
-- (http://timerrubikpauls.surge.sh/)
+-[Ir a la pagina](http://timerrubikpauls.surge.sh/)
