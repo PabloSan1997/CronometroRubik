@@ -1,0 +1,72 @@
+@media (max-width: 1116px) {
+  .contenedor .tablas .resultados .parte .algor {
+    margin: auto;
+    width: 75%;
+  }
+  .contenedor .tablas .resultados .parte p {
+    font-size: 0.8rem;
+  }
+  .contenedor .tablas .tabla tbody tr {
+    font-size: 0.8rem;
+  }
+  .contenedor .tablas {
+    height: 250px;
+  }
+  header .areaR p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 900px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 749px) {
+  header .areaR p {
+    font-size: 0.8rem;
+    word-spacing: 8px;
+  }
+}
+@media (max-width: 700px) {
+  .contenedor {
+    height: 82vh;
+  }
+  header h1 {
+    width: 50%;
+  }
+  .contenedor .tablas {
+    flex-direction: column;
+    margin: auto;
+    height: 400px;
+    width: 100%;
+  }
+  .contenedor .tablas .resultados {
+    margin: auto;
+    height: 60%;
+    width: 90%;
+  }
+  .contenedor .tablas .tabla {
+    display: none;
+  }
+  .contenedor .tablas .tabla2 {
+    display: table;
+  }
+  header .areaR p {
+    word-spacing: 5px;
+    font-size: 0.8rem;
+  }
+  .contenedor .tablas .tabla2 tbody tr .salida {
+    text-align: center;
+  }
+}
+@media (max-width: 472px) {
+  .contenedor .tablas .resultados .parte p {
+    font-size: 0.7rem;
+  }
+  header .areaR {
+    width: 100%;
+  }
+  header .areaR p {
+    font-size: 0.7rem;
+  }
+}/*# sourceMappingURL=responsivo.css.map */

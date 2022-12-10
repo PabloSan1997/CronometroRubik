@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+.tabla2{
+    display: none;
+}
+$colorfondo:rgb(0, 5, 0);
+$colorfondo2:rgb(7, 70, 7);
+$colortitulo:rgb(6, 27, 5);
+$colorletra1:rgb(45, 179, 45);
+$colorletra2:rgb(194, 240, 172);
+$colortabla:rgb(107, 5, 5);
+$tablatitulo:rgb(32, 2, 2);
+body{
+    background: $colorfondo;
+}
+header{
+    background: $colortitulo;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    h1{
+        font-size: 2rem;
+        color:$colorletra1;
+        width: 30%;
+        height: fit-content;
+        margin: auto;
+        user-select: none;
+        padding: 2px 10px;
+        text-align: center;
+        &:hover{
+            border-radius: 10px;
+            border: outset 3px green;
+            background: $colorfondo2;
+            cursor: pointer;
+        }&:active{
+            border: inset 3px green;
+            background: $colortitulo;
+        }
+    }
+    .areaR{
+        width: 90%;
+        height: 35%;
+        margin: auto auto 0 auto;
+        display: flex;
+        background: $colorfondo2;
+        display: flex;
+        box-shadow: inset 0 0 5px black;
+        p{
+            width: 100%;
+            color:$colorletra2;
+            text-align: center;
+            font-size: 1.2rem;
+            word-spacing: 15px;
+            margin: auto;
+        }
+    }
+}
+.contenedor{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    flex-direction: column;
+    .timer{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        background: rgb(0, 0, 15);
+        p{
+            color:$colorletra2;
+            font-size: 8rem;
+            margin: auto;
+        }
+    }
+    .tablas{
+        width: 100%;
+        height: 52vh;
+        display: flex;
+        .tabla{
+            height: 80%;
+            width: 20%;
+            background: $colortabla;
+            margin: auto;
+            border-collapse: collapse;
+            tbody{
+                width: 100%;
+                height: 100%;
+                font-size: 1.5rem;
+                tr{
+                    width: 100%;
+                    height: 25%;
+                    .tit{
+                        background: $tablatitulo;
+                        color: rgb(243, 179, 179);
+                    }
+                    .salida{
+                        color: white;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content:center;
+                        width: 100%;
+                        height: 100%;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .tabla2{
+            height: 20%;
+            width: 90%;
+            background: $colortabla;
+            margin: auto;
+            border-collapse: collapse;
+            margin: 2px auto auto auto;
+            tbody{
+                tr{
+                    .tit{
+                        background: $tablatitulo;
+                        color: rgb(243, 179, 179);
+                    }
+                    .salida{
+                        color: white;
+                    }
+                }
+            }
+        }
+        .resultados{
+            width: 60%;
+            height: 80%;
+            background: $colortabla;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            h2{
+                width: 100%;
+                height: 20%;
+                text-align: center;
+                background: $tablatitulo;
+                color:rgb(250, 182, 182);
+                font-size: 2.2rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            .parte{
+                width: 100%;
+                height: 16%;
+                display: flex;
+                &:hover{
+                    background: red;
+                    user-select: none;
+                    cursor: pointer;
+                }
+                p{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    text-align: center;
+                    color:white;
+                    font-size: 1.1rem;
+                }
+                .num{
+                    width: 10%;
+                    height: 100%;
+                }
+                .tiem{
+                    height: 100%;
+                    width: 5%;
+                }
+                .algor{
+                    height: 100%;
+                    width: 100% - 25% - 10%;
+                    text-align: justify;
+                    margin:0 50px;
+                }
+            }
+           
+        }
+    }
+    
+}
