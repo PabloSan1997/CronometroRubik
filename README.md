@@ -26,4 +26,4 @@
 
 ### Pagina
 En esta url puedes ver esta aplicacion web funcionar
-- [Link Timer Rubik](timerRubikPauls.surge.sh "Link")
+- timerRubikPauls.surge.sh
